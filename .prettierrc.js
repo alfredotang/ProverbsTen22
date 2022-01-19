@@ -7,6 +7,4 @@ module.exports = {
   printWidth: 120,
   bracketSpacing: true,
   arrowParens: 'avoid',
-  vueIndentScriptAndStyle: true,
-  embeddedLanguageFormatting: 'off',
 }
