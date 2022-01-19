@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "ES2015",
+      "ES2016",
+      "ESNext"
+    ],
+
+    "module": "commonjs",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["./src/*"],
+      "@test/*": ["./test/*"]
+    },
+    "noEmit": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./test/**/*.ts",
+    "./jest.config.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "./coverage"
+  ]
+}
