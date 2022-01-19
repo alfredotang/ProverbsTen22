@@ -31,8 +31,8 @@
     }
   },
   "lint-staged": {
-    "**/*.{js,ts}": [
-      "pretty-quick --staged --pattern '**/*.*(js|ts)'",
+    "**/*.{js,ts,json}": [
+      "pretty-quick --staged --pattern '**/*.*(js|ts|json)'",
       "eslint --fix --ext .js,.ts --cache .eslintignore",
       "git add"
     ]
